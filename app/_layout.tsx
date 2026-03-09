@@ -4,7 +4,6 @@ import { StatusBar } from 'expo-status-bar';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
 import 'react-native-reanimated';
-import '../global.css';
 
 import { useColorScheme } from '@/hooks/use-color-scheme';
 import { AuthContext, useAuthProvider } from '@/hooks/useAuth';
